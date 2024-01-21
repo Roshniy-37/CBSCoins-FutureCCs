@@ -9,6 +9,9 @@ nav{
    color:aliceblue;
    align-items: center;
    cursor: pointer;
+   position: fixed;
+   overflow: hidden;
+
 }
 ul{
     margin-left: 20vh;
@@ -20,11 +23,11 @@ nav ul li{
     font-size: 3vh;
 }
 button{
-    padding:5px 15px;
+    padding:0.5vh 1vh;
     background:transparent;
     color:aliceblue;
-    border: 2px solid aliceblue;
-    border-radius: 25px; 
+    border: 1vh solid aliceblue;
+    border-radius: 2vh; 
     font-size: 3vh;
     cursor: pointer;
 }
