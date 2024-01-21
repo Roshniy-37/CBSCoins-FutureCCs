@@ -1,4 +1,5 @@
-*{
-    background-image: linear-gradient(90deg, blue, violet);
-    height: 600vh;
+*{ 
+    padding: 0;
+    margin:0;
 }
+

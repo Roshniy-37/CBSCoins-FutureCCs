@@ -1,0 +1,30 @@
+nav{
+    z-index: 2;
+   justify-content: space-evenly;
+   display: flex;
+   width: 100%;
+   background-color: rgb(9, 9, 47);
+   top: 0;
+   height: 7vh;
+   color:aliceblue;
+   align-items: center;
+   cursor: pointer;
+}
+ul{
+    margin-left: 20%;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 3vh;
+}
+button{
+    padding:5px 15px;
+    background:transparent;
+    color:aliceblue;
+    border: 2px solid aliceblue;
+    border-radius: 25px; 
+    font-size: 3vh;
+    cursor: pointer;
+}
