@@ -1,0 +1,67 @@
+body{
+    position: sticky;
+    background-image: linear-gradient(180deg, navy, black);
+    background-attachment: fixed;
+    height: 600vh;
+    color: white;
+}
+
+.parent {
+    display: grid;
+    place-items: center;
+}
+
+input,textarea{
+    font-size: 3vh;
+    border-radius: 2vh;
+    padding: 1vh;
+    transition-duration: 0.5s;
+    background-color: snow;
+    border-width: 0vh;
+}
+
+#contactTitle{
+    font-size: 10vh;
+    font-family: CrimsonTextBold;
+}
+
+#titleDiv{
+    width: 100%;
+    text-align: center;
+    height : 15vh;
+}
+
+#comment{
+    height : 40vh;
+    width : 150vh;
+}
+
+#nameDiv{
+    padding-bottom: 1vh;
+    font-size: 5vh;
+}
+
+#emailDiv{
+    padding-bottom: 1vh;
+    font-size: 5vh;
+}
+
+#commentDiv{
+    padding-bottom: 1vh;
+    font-size: 5vh;
+}
+
+#submitDiv{
+    text-align: center;
+}
+
+@font-face {
+    font-family: CrimsonTextBold;
+    src: url(Crimson_Text/CrimsonText-Bold.ttf);
+}
+
+
+input:hover, textarea:hover{
+    background-color: #b064d3;
+    color: white;
+}
