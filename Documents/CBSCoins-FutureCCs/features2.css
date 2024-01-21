@@ -1,6 +1,5 @@
 body{
-    position: sticky;
-    background-image: linear-gradient(180deg, navy, black);
+    background: linear-gradient(90deg, rgb(6, 6, 91), rgb(74, 13, 115));
     background-attachment: fixed;
     height: 100vh;
     color: white;
@@ -67,16 +66,16 @@ img{
 }
 
 .desc{
-    color : white;
+    color : black;
     position: absolute;
     backdrop-filter: blur(8px);
     height : 15vh;
     width : 60vh;
     border-radius: 2vh;
     top : 0vh;
-    padding : 1vh;
+    padding : 1.5vh;
     font-family: 'Times New Roman', Times, serif;
-    background-color: black;
+    background-image: linear-gradient(160deg, rgb(131, 228, 255), rgb(255, 255, 255));
 }
 
 #QREDesc{

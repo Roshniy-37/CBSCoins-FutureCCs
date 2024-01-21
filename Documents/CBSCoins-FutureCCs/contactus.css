@@ -1,12 +1,14 @@
 body{
     position: sticky;
-    background-image: linear-gradient(180deg, navy, black);
+    background: linear-gradient(90deg, rgb(6, 6, 91), rgb(74, 13, 115));
     background-attachment: fixed;
-    height: 600vh;
+    height: 100vh;
     color: white;
+    padding : 0%;
+    margin : 0%;
 }
 
-.parent {
+.allDivs {
     display: grid;
     place-items: center;
 }
@@ -32,8 +34,12 @@ input,textarea{
 }
 
 #comment{
-    height : 40vh;
+    height : 30vh;
     width : 150vh;
+}
+
+#submit{
+    font-weight:bolder;
 }
 
 #nameDiv{
@@ -53,6 +59,7 @@ input,textarea{
 
 #submitDiv{
     text-align: center;
+    padding-bottom: 5vh;
 }
 
 @font-face {
@@ -64,4 +71,60 @@ input,textarea{
 input:hover, textarea:hover{
     background-color: #b064d3;
     color: white;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(9, 9, 47);
+    height : 27vh;
+    width : 100%;
+    padding : 0% solid;
+    margin : 0%;
+}
+
+.FooterDiv{
+    margin-left: 2vh;
+    padding : 2vh;
+    font-size: 1.78vh;
+}
+
+#address-contact{
+    position : absolute;
+    right: 15vh;
+    height: 20vh;
+    width: 20vh;
+    padding : 2vh;
+    text-align: left;
+    font-size: 2.25vh;
+}
+
+.SocialMedia{
+    height: 5vh;
+    padding-left: 2vh;
+}
+
+#SMDiv{
+    position: absolute;
+    width : 50vh;
+    bottom: 10vh;
+    padding-bottom: 3vh;
+    left: 75vh;
+    text-align: center;
+}
+
+#Links{
+    position: absolute;
+    width: 40vh;
+    margin-left: 15vh;
+}
+
+#Links a{
+    color : lightgray;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+#Links a:hover{
+    color : violet;
 }
