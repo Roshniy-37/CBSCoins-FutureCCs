@@ -21,3 +21,7 @@ vi) Contact Us + Footer
 
 
 --> Software Used - HTML + CSS
+
+--> Browser preferably to be used - Google
+
+--> Project is live on : https://cbscoin.onrender.com
