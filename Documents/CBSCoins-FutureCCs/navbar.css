@@ -1,11 +1,11 @@
-nav{
+.navbar{
     z-index: 2;
    justify-content: space-evenly;
    display: flex;
    width: 100%;
    background-color: rgb(9, 9, 47);
    top: 0;
-   height: 7vh;
+   height: 8vh;
    color:aliceblue;
    align-items: center;
    cursor: pointer;
@@ -13,21 +13,35 @@ nav{
    overflow: hidden;
 
 }
-ul{
-    margin-left: 20vh;
+.nav{
+    margin-left: 30vh;
 }
-nav ul li{
+.navbar ul li{
     list-style: none;
     display: inline-block;
-    margin-left: 3vh;
+    margin-left: 2vh;
     font-size: 3vh;
 }
-button{
+.navbar a{
+    text-decoration: none;
+    color: aliceblue;
+    transition-duration: 0.5s;
+}
+.navbar a:hover{
+    color: violet;
+    border-bottom: 0.5vh solid violet;
+}
+.navbar button{
     padding:0.5vh 1vh;
     background:transparent;
     color:aliceblue;
-    border: 0.5vh solid aliceblue;
+    border: 0.25vh solid aliceblue;
     border-radius: 2vh; 
-    font-size: 3vh;
+    font-size: 2.75vh;
     cursor: pointer;
+    transition-duration: 0.5s;
+}
+.navbar button:hover{
+    border: 0.25vh solid violet;
+    color: violet;
 }
