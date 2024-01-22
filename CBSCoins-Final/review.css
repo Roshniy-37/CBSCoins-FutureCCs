@@ -1,0 +1,97 @@
+/* #reviews{
+  margin: 0.5vh;
+  padding: 10vh;
+} */
+.title{
+  display: flex;
+  /* position: absolute; */
+  flex-direction: column;
+  margin-left: 0.5vh;
+}
+.text1{
+  color: rgb(97, 211, 173);
+  font-size: 2.5vh;
+  left: 18vh;
+  position: absolute;
+}
+
+.text2{
+  position: absolute;
+  color: white;
+  font-size: 7vh;
+  width:70vh;
+  left: 10vh;
+  top:306vh;
+}
+
+.text3{
+  color: white;
+  font-size: 3.5vh;
+  position: absolute;
+  right: 12.5vh;
+  top: 312vh;
+}
+
+.text4{
+  color: white;
+  font-size: 3.5vh;
+  position: absolute;
+  right: 1vh;
+  top: 317vh;
+}
+
+.review{
+  position: absolute;
+  flex-direction: column;
+  margin-top: 5vh;
+  margin-left: 0.5vh;
+}
+
+.rev1{
+  display: flex;
+  height: 30vh;
+  padding-bottom: 8vh; 
+  /* padding: 5vh; */
+}
+.rev2{
+  /* margin-top: 0.5vh; */
+  position: absolute;
+  display: flex;
+  height: 30vh;
+  /* padding: 5vh; */
+}
+
+.r1{
+  background-image: linear-gradient(90deg,rgb(110, 7, 110),rgb(9, 9, 150));
+  height: 30vh;
+  width: 70vh;
+  border-radius: 2.5vh;
+  padding: 2vh;
+}
+.r2{
+  background-image: linear-gradient(270deg,rgb(110, 7, 110),rgb(9, 9, 150));
+  height: 30vh;
+  width: 70vh;
+  border-radius: 2.5vh;
+  margin-left: 5vh;
+  padding: 2vh;
+}
+
+.f1{
+  font-size: 4vh;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+}
+.f2{
+  font-size: 3vh;
+  font-weight: bold;
+  color: lightgrey;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.checked{
+  color: goldenrod;
+}
+.fa-star-half-full{
+  color: goldenrod; 
+}

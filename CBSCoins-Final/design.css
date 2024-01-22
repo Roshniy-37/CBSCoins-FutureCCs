@@ -1,0 +1,102 @@
+*{ 
+    padding: 0;
+    margin:0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background: linear-gradient(90deg, rgb(6, 6, 91), rgb(74, 13, 115));
+}
+.intro{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20vh;
+    margin-left: 10vh;
+    font-size: 3vh;
+}
+.subheading{
+    text-align:center;
+    color: rgb(241, 211, 252);
+}
+.intro-para{
+    text-align:center;
+    color:rgb(26, 147, 252);
+    font-family:'Times New Roman', Times, serif;
+}
+.nabla-googlefont{
+    text-align:center;
+    color: aliceblue;
+    font-size: 15vh;
+    font-family: "Nabla", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "EDPT" 78,
+        "EHLT" 24;
+}
+.nav a{
+    text-decoration: none;
+}
+.start{
+   position:absolute;
+    top: 430vh;
+}   
+.new{
+    display:flex;
+}
+.tc{
+    border: 0.5vh solid aliceblue;
+    height:75vh;
+    width: 50vh;
+    margin-right: 10vh;
+    margin-left: 10vh;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgb(74, 13, 115), rgb(12, 5, 114));  
+}
+
+.tc h3{
+    font-size:5vh;
+    color: aliceblue;
+    margin-left: 2vh;
+    margin-top: 10vh;
+    text-align:center;
+}
+.tc p{
+    color:antiquewhite;
+    font-size: 3vh;
+    margin-left: 8vh;
+    margin-right: 8vh;
+    text-align:center;
+}
+.coin{
+    display: flex;
+}
+.coin img{
+    margin-left: 0vh;
+}
+.coin button{
+    font-size: 3vh;
+    border: 0.25vh solid aliceblue;
+    color: aliceblue;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgb(74, 13, 115), rgb(12, 5, 114));  
+    font-weight: bold;
+    margin-left: 10vh;
+    height: 10vh;
+    width:25vh;
+    margin-top: 25vh;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.coin button:hover{
+    background:rgb(234, 187, 242);
+    color: rgb(10, 10, 55);
+}
+
+
+
+
+
+

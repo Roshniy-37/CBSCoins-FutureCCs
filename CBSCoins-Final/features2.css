@@ -1,0 +1,112 @@
+#bodyDM{
+    background: linear-gradient(90deg, rgb(6, 6, 91), rgb(74, 13, 115));
+    /* background-attachment: fixed; */
+    height: 100vh;
+    color: white;
+}
+
+#WhyCBSCoin{
+    text-align: center;
+    font-size: 7vh;
+    color : rgb(131, 228, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.images{
+    height : 15vh;
+    width: 15vh;
+    border-radius: 50%;
+    margin-bottom: 1vh;
+}
+
+.imgLogo{
+    height : 15vh;
+    width: 15vh;
+    border-radius: 50%;
+}
+
+#QREImage{
+    top: 101vh;
+    position: absolute;
+    left: 5vh;
+}
+
+#EFMImage{
+    top: 101vh;
+    position: absolute;
+    left: 90vh;
+}
+
+#DCIVImage{
+    top: 126vh;
+    position: absolute;
+    left: 5vh;
+}
+
+#SCTImage{
+    top: 126vh;
+    position: absolute;
+    left: 90vh;
+}
+
+#DGMImage{
+    top: 151vh;
+    position: absolute;
+    left: 5vh;
+}
+
+#CCCImage{
+    top: 151vh;
+    position: absolute;
+    left: 90vh;
+}
+
+.desc{
+    color : black;
+    position: absolute;
+    backdrop-filter: blur(8px);
+    height : 15vh;
+    width : 60vh;
+    border-radius: 2vh;
+    top : 0vh;
+    padding : 1.5vh;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient(160deg, rgb(131, 228, 255), rgb(255, 255, 255));
+    margin-bottom: 1vh;
+}
+
+#QREDesc{
+    top : 100vh;
+    left: 23vh;
+    font-size : 2.7vh;
+}
+
+#EFMDesc{
+    top : 100vh;
+    left: 108vh;
+    font-size : 2.7vh;
+}
+
+#DCIVDesc{
+    top : 125vh;
+    left: 23vh;
+    font-size : 2.7vh;
+}
+
+#SCTDesc{
+    top : 125vh;
+    left: 108vh;
+    font-size : 2.7vh;
+}
+
+#DGMDesc{
+    top : 150vh;
+    left: 23vh;
+    font-size : 2.4vh;
+}
+
+#CCCDesc{
+    top : 150vh;
+    left: 108vh;
+    font-size : 2.3vh;
+}
