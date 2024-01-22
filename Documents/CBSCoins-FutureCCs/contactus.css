@@ -1,5 +1,5 @@
-body{
-    position: sticky;
+#bodyDM{
+    position: relative;
     background: linear-gradient(90deg, rgb(6, 6, 91), rgb(74, 13, 115));
     background-attachment: fixed;
     height: 100vh;
@@ -13,13 +13,14 @@ body{
     place-items: center;
 }
 
-input,textarea{
+#bodyDM input, #bodyDM textarea{
     font-size: 3vh;
     border-radius: 2vh;
     padding: 1vh;
     transition-duration: 0.5s;
     background-color: snow;
     border-width: 0vh;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #contactTitle{
@@ -36,10 +37,15 @@ input,textarea{
 #comment{
     height : 30vh;
     width : 150vh;
+    resize :none;
 }
 
 #submit{
     font-weight:bolder;
+}
+
+#submit:hover{
+    cursor: pointer;
 }
 
 #nameDiv{
@@ -68,7 +74,7 @@ input,textarea{
 }
 
 
-input:hover, textarea:hover{
+#bodyDM input:hover, #bodyDM textarea:hover{
     background-color: #b064d3;
     color: white;
 }
@@ -79,7 +85,7 @@ footer{
     background-color: rgb(9, 9, 47);
     height : 27vh;
     width : 100%;
-    padding : 0% solid;
+    padding : 0%;
     margin : 0%;
 }
 
