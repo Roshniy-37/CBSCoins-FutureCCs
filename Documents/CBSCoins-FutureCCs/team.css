@@ -1,0 +1,93 @@
+body{
+    position: sticky;
+    background: linear-gradient(90deg, rgb(6, 6, 91), rgb(74, 13, 115));
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+    font-family: CrimsonTextBold;
+}
+
+.team{
+    height: 100vh;
+}
+._div1{
+    margin-top: 0vh;
+    font-size: 7vh;
+    text-align: center;
+    /* background-color: aqua; */
+}
+._div2{
+    /* background-color: bisque; */
+    position: absolute;
+    left: 92vh;
+    top: 8vh;
+}
+
+.img1{
+    height: 30vh;
+    width: 30vh;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    /* justify-content: center; */
+    border-radius: 50%;
+    border: 2px solid;
+    border-color: rgb(249, 204, 136);
+}
+.img2{
+    height: 30vh;
+    width: 30vh;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    /* justify-content: center; */
+    border-radius: 50%;
+    border: 2px solid;
+    border-color: rgb(249, 204, 136);
+}
+.img3{
+    height: 30vh;
+    width: 30vh;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    /* justify-content: center; */
+    border-radius: 50%;
+    border: 2px solid;
+    border-color: rgb(249, 204, 136);
+}
+.img4{
+    height: 30vh;
+    width: 30vh;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    /* justify-content: center; */
+    border-radius: 50%;
+    border: 2px solid;
+    border-color: rgb(249, 204, 136);
+}
+.i1{
+    height: 30vh;
+    width: 30vh;
+    border-radius: 50%;
+}
+
+.m1{
+    /* background-color: azure; */
+    position: absolute; 
+    left: 47vh;
+    top: 54vh;
+}
+.m2{
+    /* background-color: beige; */
+    position: absolute;
+    left: 92vh;
+    top: 54vh;
+}
+.m3{
+    /* background-color: blanchedalmond; */
+    position: absolute;
+    right: 45vh;
+    top: 54vh;
+}

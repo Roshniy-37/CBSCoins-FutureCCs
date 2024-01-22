@@ -1,0 +1,87 @@
+body{
+  margin: 0.5vh 15vh;
+  padding: 10vh;
+  background: linear-gradient(90deg, rgb(6, 6, 91), rgb(74, 13, 115));
+}
+/* .title{
+  background-color: antiquewhite;
+} */
+
+.text1{
+  color: rgb(97, 211, 173);
+  font-size: 2.5vh;
+}
+
+.text2{
+  color: white;
+  font-size: 7vh;
+  width:70vh;
+}
+
+.text3{
+  color: white;
+  font-size: 3.5vh;
+  position: absolute;
+  right: 37vh;
+  top: 18vh;
+}
+
+.text4{
+  color: white;
+  font-size: 3.5vh;
+  position: absolute;
+  right: 25vh;
+  top: 22vh;
+}
+
+.review{
+  display: flex;
+  flex-direction: column;
+}
+
+.rev1{
+  display: flex;
+  height: 30vh;
+  padding: 5vh;
+}
+.rev2{
+  margin-top: 0.5vh;
+  display: flex;
+  height: 30vh;
+  padding: 5vh;
+}
+
+.r1{
+  background-image: linear-gradient(90deg,rgb(110, 7, 110),rgb(9, 9, 150));
+  height: 30vh;
+  width: 70vh;
+  border-radius: 2.5vh;
+  padding: 2vh;
+}
+.r2{
+  background-image: linear-gradient(270deg,rgb(110, 7, 110),rgb(9, 9, 150));
+  height: 30vh;
+  width: 70vh;
+  border-radius: 2.5vh;
+  margin-left: 5vh;
+  padding: 2vh;
+}
+
+.f1{
+  font-size: 4vh;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+}
+.f2{
+  font-size: 3vh;
+  font-weight: bold;
+  color: lightgrey;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.checked{
+  color: goldenrod;
+}
+.fa-star-half-full{
+  color: goldenrod; 
+}
